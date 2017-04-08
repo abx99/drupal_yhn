@@ -9,7 +9,7 @@
         "name": "abx99",
         "email": "abx99@gapsinreality.com"
     },
-    "multi_instance": "true",
+    "multi_instance": "false",
     "arguments": {
         "install" : [
             {
