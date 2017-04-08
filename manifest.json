@@ -1,15 +1,15 @@
 {
-    "name": "Drupal",
-    "id": "drupal",
+    "name": "Drupal1",
+    "id": "drupal1",
     "description": {
-        "en": "Drupal is content management software."
+        "en": "Drupal1 is content management software."
     },
     "url": "http://drupal.org/",
     "maintainer": {
-        "name": "realitygaps",
-        "email": "realitygaps@gapsinreality.com"
+        "name": "abx99",
+        "email": "abx99@gapsinreality.com"
     },
-    "multi_instance": "false",
+    "multi_instance": "true",
     "arguments": {
         "install" : [
             {
