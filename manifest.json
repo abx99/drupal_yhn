@@ -1,8 +1,8 @@
 {
-    "name": "Drupalabx",
-    "id": "drupalabx",
+    "name": "Drupalshop",
+    "id": "drupalshop",
     "description": {
-        "en": "Drupal1 is content management software."
+        "en": "Drupalshop is content management software."
     },
     "url": "http://drupal.org/",
     "maintainer": {

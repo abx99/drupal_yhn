@@ -1,10 +1,10 @@
 #!/bin/bash
 
-db_user=drupalabx
-db_name=drupalabx
+db_user=drupalshop
+db_name=drupalshop
 root_pwd=$(sudo cat /etc/yunohost/mysql)
-domain=$(sudo yunohost app setting drupalabx domain)
+domain=$(sudo yunohost app setting drupalshop domain)
 
 mysql -u root -p$root_pwd -e "DROP DATABASE $db_name ; DROP USER $db_user@localhost ;"
-sudo rm -rf /var/www/drupalabx
-sudo rm -f /etc/nginx/conf.d/$domain.d/drupalabx.conf
+sudo rm -rf /var/www/drupalshop
+sudo rm -f /etc/nginx/conf.d/$domain.d/drupalshop.conf
