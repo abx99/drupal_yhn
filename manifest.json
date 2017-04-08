@@ -1,6 +1,6 @@
 {
-    "name": "Drupal1",
-    "id": "drupal1",
+    "name": "Drupalabx",
+    "id": "drupalabx",
     "description": {
         "en": "Drupal1 is content management software."
     },
@@ -26,8 +26,8 @@
                 "ask": {
                     "en": "Choose a path for Drupal"
                 },
-                "example": "/drupal",
-                "default": "/drupal"
+                "example": "/drupalabx",
+                "default": "/drupalabx"
             },
             {
                 "name": "public_site",
