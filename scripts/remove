@@ -1,10 +1,10 @@
 #!/bin/bash
 
-db_user=drupal
-db_name=drupal
+db_user=drupal1
+db_name=drupal1
 root_pwd=$(sudo cat /etc/yunohost/mysql)
-domain=$(sudo yunohost app setting drupal domain)
+domain=$(sudo yunohost app setting drupal1 domain)
 
 mysql -u root -p$root_pwd -e "DROP DATABASE $db_name ; DROP USER $db_user@localhost ;"
-sudo rm -rf /var/www/drupal
-sudo rm -f /etc/nginx/conf.d/$domain.d/drupal.conf
+sudo rm -rf /var/www/drupal1
+sudo rm -f /etc/nginx/conf.d/$domain.d/drupal1.conf
